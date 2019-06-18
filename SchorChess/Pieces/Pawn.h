@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Pawn : Piece
 
-+(Pawn*)makePawnOnBoard: (Board *) board;
++(Pawn*)makePawnOnBoard: (Board *) board color:(NSString *)pieceColor active: (BOOL)isActive;
 
 
 @end

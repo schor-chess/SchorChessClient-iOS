@@ -11,12 +11,17 @@
 
 @implementation Pawn
 
-+(Pawn*)makePawnOnBoard: (Board *) board{
++(Pawn*)makePawnOnBoard: (Board *) board color:(NSString *)pieceColor active: (BOOL)isActive{
 
-    Pawn *pawn = (Pawn *)[Piece createPieceOnBoard: (Board *) board];
-   // [pawn setUserInteractionEnabled:YES];
-
-    pawn.image = [UIImage imageNamed:@"blackPawn.png"];
+  
+Pawn *pawn = (Pawn *)[Piece createPieceOnBoard:(Board*)board active:isActive];
+  
+    if ([pieceColor isEqualToString:@"white"]) {
+        
+        pawn.image = [UIImage imageNamed:@"whitePawn.png"];
+}
+    else {pawn.image = [UIImage imageNamed:@"blackPawn.png"];
+    }
     pawn.tag = 1;
     
 
@@ -24,6 +29,8 @@
     return pawn;
     
 }
+
+
 
 
 

@@ -11,12 +11,13 @@
 @implementation King
 +(King*)makeKingOnBoard: (Board *) board{
     
-   King *king = (King *)[Piece createPieceOnBoard: (Board *) board];
+  King *king = (King *)[Piece createPieceOnBoard: (Board *) board];
     
     king.image = [UIImage imageNamed:@"blackKing.png"];
     king.tag = 6;
-    
+  
     return king;
+  
 }
 
 @end

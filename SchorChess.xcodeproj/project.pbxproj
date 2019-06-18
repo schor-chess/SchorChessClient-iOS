@@ -16,6 +16,7 @@
 		E3113E4F22B87547003DB5E6 /* blackKnight.png in Resources */ = {isa = PBXBuildFile; fileRef = E3113E4E22B87547003DB5E6 /* blackKnight.png */; };
 		E3113E5122B87697003DB5E6 /* blackBishop.png in Resources */ = {isa = PBXBuildFile; fileRef = E3113E5022B87697003DB5E6 /* blackBishop.png */; };
 		E3113E5422B876B0003DB5E6 /* Bishop.m in Sources */ = {isa = PBXBuildFile; fileRef = E3113E5322B876B0003DB5E6 /* Bishop.m */; };
+		E3113E5622B89401003DB5E6 /* whitePawn.png in Resources */ = {isa = PBXBuildFile; fileRef = E3113E5522B89400003DB5E6 /* whitePawn.png */; };
 		E3402C1022B5BB5F0011AC44 /* SquareFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = E3402C0F22B5BB5F0011AC44 /* SquareFinder.m */; };
 		E3402C1C22B60C430011AC44 /* blackQueen.png in Resources */ = {isa = PBXBuildFile; fileRef = E3402C1B22B60C430011AC44 /* blackQueen.png */; };
 		E3402C1E22B60C5D0011AC44 /* blackKing.png in Resources */ = {isa = PBXBuildFile; fileRef = E3402C1D22B60C5D0011AC44 /* blackKing.png */; };
@@ -65,6 +66,7 @@
 		E3113E5022B87697003DB5E6 /* blackBishop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackBishop.png; path = SchorChess/blackBishop.png; sourceTree = "<group>"; };
 		E3113E5222B876B0003DB5E6 /* Bishop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bishop.h; sourceTree = "<group>"; };
 		E3113E5322B876B0003DB5E6 /* Bishop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bishop.m; sourceTree = "<group>"; };
+		E3113E5522B89400003DB5E6 /* whitePawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whitePawn.png; path = SchorChess/whitePawn.png; sourceTree = "<group>"; };
 		E3402C0E22B5BB5F0011AC44 /* SquareFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareFinder.h; sourceTree = "<group>"; };
 		E3402C0F22B5BB5F0011AC44 /* SquareFinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareFinder.m; sourceTree = "<group>"; };
 		E3402C1B22B60C430011AC44 /* blackQueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackQueen.png; path = SchorChess/blackQueen.png; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				E3113E5022B87697003DB5E6 /* blackBishop.png */,
 				E3113E4E22B87547003DB5E6 /* blackKnight.png */,
 				E3402C1F22B60CD40011AC44 /* blackPawn.png */,
+				E3113E5522B89400003DB5E6 /* whitePawn.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -309,6 +312,7 @@
 				E3402C1C22B60C430011AC44 /* blackQueen.png in Resources */,
 				E3113E4322B703F3003DB5E6 /* blackRook.png in Resources */,
 				E3113E5122B87697003DB5E6 /* blackBishop.png in Resources */,
+				E3113E5622B89401003DB5E6 /* whitePawn.png in Resources */,
 				E384B1C722B4901B00E60930 /* LaunchScreen.storyboard in Resources */,
 				E3402C1E22B60C5D0011AC44 /* blackKing.png in Resources */,
 				E3113E4F22B87547003DB5E6 /* blackKnight.png in Resources */,

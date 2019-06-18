@@ -12,7 +12,7 @@
 
 +(Knight*)makeKnightOnBoard: (Board *) board{
     
-    Knight *knight = (Knight *)[Piece createPieceOnBoard: (Board *) board];
+//    Knight *knight = (Knight *)[Piece createPieceOnBoard: (Board *) board];
     
     knight.image = [UIImage imageNamed:@"blackKnight.png"];
     knight.tag = 3;

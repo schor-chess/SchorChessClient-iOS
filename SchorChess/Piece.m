@@ -12,17 +12,39 @@
 
 @implementation Piece
 
-+(Piece*)createPieceOnBoard: (Board *) board{
++(Piece*)createPieceOnBoard: (Board *) board pieceName: (NSInteger)pieceID pieceColor: (NSString*)color active:(BOOL)isActive{
+    
+    
     Piece *piece = [[Piece alloc] init];
     piece.board = board;
-    [piece setUserInteractionEnabled:YES];
     piece.backgroundColor = [UIColor clearColor];
     
+    if (isActive) {
+        
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:piece action:@selector(pieceTouched:)];
     [pan setMaximumNumberOfTouches:1];
     [pan setMinimumNumberOfTouches:1];
     [piece addGestureRecognizer:pan];
+    [piece setUserInteractionEnabled:YES];
+    }
+
+    switch (pieceID) {
+        case 1:
+            //PAWNS
+            if ([color isEqualToString: @"black"]) {
+                piece.image = [UIImage imageNamed:@"blackPawn"];
+            }
+            else {
+                piece.image = [UIImage imageNamed:@"whitePawn"];
+            }
+            
+            break;
+            
+        default:
+            break;
+    }
     
+    piece.tag = pieceID;
     return piece;
     
 }

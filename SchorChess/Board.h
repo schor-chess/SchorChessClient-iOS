@@ -44,8 +44,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property NSInteger squareNumber;
 
-@property NSInteger gameSide; //0 means white on bottom 1 means black on bottom
+@property NSString *activeSide;
+@property NSString *passiveSide;
 
+
+
+@property NSInteger otherSide;
 
 @end
 

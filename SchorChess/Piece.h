@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Piece : UIImageView
 
-+(Piece*)createPieceOnBoard: (Board *) board;
++(Piece*)createPieceOnBoard: (Board *) board pieceName: (NSInteger)pieceID pieceColor: (NSString*)color active:(BOOL)isActive;
+
 @property Board * board;
 
 @end
