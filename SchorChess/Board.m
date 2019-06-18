@@ -11,7 +11,7 @@
 @implementation Board
 
 -(Board *)makeBoardWithView: (UIView*)view width:(NSInteger)width height: (NSInteger)height{
-    _gameSide = 1; //means black on bottom
+    _gameSide = 1; //means black on bottom TEST
    
     _view = view;
    
