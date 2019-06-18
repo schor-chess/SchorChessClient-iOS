@@ -7,8 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3113E3B22B6CB9E003DB5E6 /* Pawn.m in Sources */ = {isa = PBXBuildFile; fileRef = E3113E3A22B6CB9E003DB5E6 /* Pawn.m */; };
+		E3113E3E22B6FEEE003DB5E6 /* King.m in Sources */ = {isa = PBXBuildFile; fileRef = E3113E3D22B6FEEE003DB5E6 /* King.m */; };
+		E3113E4122B7010E003DB5E6 /* Queen.m in Sources */ = {isa = PBXBuildFile; fileRef = E3113E4022B7010E003DB5E6 /* Queen.m */; };
+		E3113E4322B703F3003DB5E6 /* blackRook.png in Resources */ = {isa = PBXBuildFile; fileRef = E3113E4222B703F3003DB5E6 /* blackRook.png */; };
+		E3113E4722B70456003DB5E6 /* Rook.m in Sources */ = {isa = PBXBuildFile; fileRef = E3113E4622B70456003DB5E6 /* Rook.m */; };
+		E3113E4D22B87497003DB5E6 /* Knight.m in Sources */ = {isa = PBXBuildFile; fileRef = E3113E4C22B87497003DB5E6 /* Knight.m */; };
+		E3113E4F22B87547003DB5E6 /* blackKnight.png in Resources */ = {isa = PBXBuildFile; fileRef = E3113E4E22B87547003DB5E6 /* blackKnight.png */; };
+		E3113E5122B87697003DB5E6 /* blackBishop.png in Resources */ = {isa = PBXBuildFile; fileRef = E3113E5022B87697003DB5E6 /* blackBishop.png */; };
+		E3113E5422B876B0003DB5E6 /* Bishop.m in Sources */ = {isa = PBXBuildFile; fileRef = E3113E5322B876B0003DB5E6 /* Bishop.m */; };
+		E3402C1022B5BB5F0011AC44 /* SquareFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = E3402C0F22B5BB5F0011AC44 /* SquareFinder.m */; };
+		E3402C1C22B60C430011AC44 /* blackQueen.png in Resources */ = {isa = PBXBuildFile; fileRef = E3402C1B22B60C430011AC44 /* blackQueen.png */; };
+		E3402C1E22B60C5D0011AC44 /* blackKing.png in Resources */ = {isa = PBXBuildFile; fileRef = E3402C1D22B60C5D0011AC44 /* blackKing.png */; };
+		E3402C2022B60CD50011AC44 /* blackPawn.png in Resources */ = {isa = PBXBuildFile; fileRef = E3402C1F22B60CD40011AC44 /* blackPawn.png */; };
+		E3402C2322B6AFB20011AC44 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = E3402C2222B6AFB20011AC44 /* Piece.m */; };
+		E3402C2622B6B3470011AC44 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = E3402C2522B6B3470011AC44 /* Board.m */; };
+		E3402C2922B6B76A0011AC44 /* GamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3402C2822B6B76A0011AC44 /* GamePlayViewController.m */; };
 		E384B1BC22B4901900E60930 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E384B1BB22B4901900E60930 /* AppDelegate.m */; };
-		E384B1BF22B4901900E60930 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E384B1BE22B4901900E60930 /* ViewController.m */; };
 		E384B1C222B4901900E60930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E384B1C022B4901900E60930 /* Main.storyboard */; };
 		E384B1C422B4901B00E60930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E384B1C322B4901B00E60930 /* Assets.xcassets */; };
 		E384B1C722B4901B00E60930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E384B1C522B4901B00E60930 /* LaunchScreen.storyboard */; };
@@ -35,11 +50,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3113E3922B6CB9E003DB5E6 /* Pawn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pawn.h; sourceTree = "<group>"; };
+		E3113E3A22B6CB9E003DB5E6 /* Pawn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pawn.m; sourceTree = "<group>"; };
+		E3113E3C22B6FEEE003DB5E6 /* King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = King.h; sourceTree = "<group>"; };
+		E3113E3D22B6FEEE003DB5E6 /* King.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = King.m; sourceTree = "<group>"; };
+		E3113E3F22B7010E003DB5E6 /* Queen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queen.h; sourceTree = "<group>"; };
+		E3113E4022B7010E003DB5E6 /* Queen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queen.m; sourceTree = "<group>"; };
+		E3113E4222B703F3003DB5E6 /* blackRook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackRook.png; path = SchorChess/blackRook.png; sourceTree = "<group>"; };
+		E3113E4522B70456003DB5E6 /* Rook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rook.h; sourceTree = "<group>"; };
+		E3113E4622B70456003DB5E6 /* Rook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rook.m; sourceTree = "<group>"; };
+		E3113E4B22B87497003DB5E6 /* Knight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Knight.h; sourceTree = "<group>"; };
+		E3113E4C22B87497003DB5E6 /* Knight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Knight.m; sourceTree = "<group>"; };
+		E3113E4E22B87547003DB5E6 /* blackKnight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackKnight.png; path = SchorChess/blackKnight.png; sourceTree = "<group>"; };
+		E3113E5022B87697003DB5E6 /* blackBishop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackBishop.png; path = SchorChess/blackBishop.png; sourceTree = "<group>"; };
+		E3113E5222B876B0003DB5E6 /* Bishop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bishop.h; sourceTree = "<group>"; };
+		E3113E5322B876B0003DB5E6 /* Bishop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bishop.m; sourceTree = "<group>"; };
+		E3402C0E22B5BB5F0011AC44 /* SquareFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareFinder.h; sourceTree = "<group>"; };
+		E3402C0F22B5BB5F0011AC44 /* SquareFinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareFinder.m; sourceTree = "<group>"; };
+		E3402C1B22B60C430011AC44 /* blackQueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackQueen.png; path = SchorChess/blackQueen.png; sourceTree = "<group>"; };
+		E3402C1D22B60C5D0011AC44 /* blackKing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackKing.png; path = SchorChess/blackKing.png; sourceTree = "<group>"; };
+		E3402C1F22B60CD40011AC44 /* blackPawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackPawn.png; path = SchorChess/blackPawn.png; sourceTree = "<group>"; };
+		E3402C2122B6AFB20011AC44 /* Piece.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		E3402C2222B6AFB20011AC44 /* Piece.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
+		E3402C2422B6B3470011AC44 /* Board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		E3402C2522B6B3470011AC44 /* Board.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		E3402C2722B6B76A0011AC44 /* GamePlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePlayViewController.h; sourceTree = "<group>"; };
+		E3402C2822B6B76A0011AC44 /* GamePlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePlayViewController.m; sourceTree = "<group>"; };
 		E384B1B722B4901900E60930 /* SchorChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchorChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E384B1BA22B4901900E60930 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E384B1BB22B4901900E60930 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E384B1BD22B4901900E60930 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E384B1BE22B4901900E60930 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E384B1C122B4901900E60930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E384B1C322B4901B00E60930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E384B1C622B4901B00E60930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +117,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3113E4422B70415003DB5E6 /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				E3113E4522B70456003DB5E6 /* Rook.h */,
+				E3113E4622B70456003DB5E6 /* Rook.m */,
+				E3113E3C22B6FEEE003DB5E6 /* King.h */,
+				E3113E3D22B6FEEE003DB5E6 /* King.m */,
+				E3113E3A22B6CB9E003DB5E6 /* Pawn.m */,
+				E3113E3922B6CB9E003DB5E6 /* Pawn.h */,
+				E3113E3F22B7010E003DB5E6 /* Queen.h */,
+				E3113E4022B7010E003DB5E6 /* Queen.m */,
+				E3113E4B22B87497003DB5E6 /* Knight.h */,
+				E3113E4C22B87497003DB5E6 /* Knight.m */,
+				E3113E5222B876B0003DB5E6 /* Bishop.h */,
+				E3113E5322B876B0003DB5E6 /* Bishop.m */,
+			);
+			path = Pieces;
+			sourceTree = "<group>";
+		};
 		E384B1AE22B4901900E60930 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,12 @@
 				E384B1D222B4901B00E60930 /* SchorChessTests */,
 				E384B1DD22B4901B00E60930 /* SchorChessUITests */,
 				E384B1B822B4901900E60930 /* Products */,
+				E3402C1B22B60C430011AC44 /* blackQueen.png */,
+				E3113E4222B703F3003DB5E6 /* blackRook.png */,
+				E3402C1D22B60C5D0011AC44 /* blackKing.png */,
+				E3113E5022B87697003DB5E6 /* blackBishop.png */,
+				E3113E4E22B87547003DB5E6 /* blackKnight.png */,
+				E3402C1F22B60CD40011AC44 /* blackPawn.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +167,15 @@
 			children = (
 				E384B1BA22B4901900E60930 /* AppDelegate.h */,
 				E384B1BB22B4901900E60930 /* AppDelegate.m */,
-				E384B1BD22B4901900E60930 /* ViewController.h */,
-				E384B1BE22B4901900E60930 /* ViewController.m */,
+				E3402C2122B6AFB20011AC44 /* Piece.h */,
+				E3402C2222B6AFB20011AC44 /* Piece.m */,
+				E3113E4422B70415003DB5E6 /* Pieces */,
+				E3402C2422B6B3470011AC44 /* Board.h */,
+				E3402C2522B6B3470011AC44 /* Board.m */,
+				E3402C0E22B5BB5F0011AC44 /* SquareFinder.h */,
+				E3402C0F22B5BB5F0011AC44 /* SquareFinder.m */,
+				E3402C2722B6B76A0011AC44 /* GamePlayViewController.h */,
+				E3402C2822B6B76A0011AC44 /* GamePlayViewController.m */,
 				E384B1C022B4901900E60930 /* Main.storyboard */,
 				E384B1C322B4901B00E60930 /* Assets.xcassets */,
 				E384B1C522B4901B00E60930 /* LaunchScreen.storyboard */,
@@ -235,7 +306,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3402C1C22B60C430011AC44 /* blackQueen.png in Resources */,
+				E3113E4322B703F3003DB5E6 /* blackRook.png in Resources */,
+				E3113E5122B87697003DB5E6 /* blackBishop.png in Resources */,
 				E384B1C722B4901B00E60930 /* LaunchScreen.storyboard in Resources */,
+				E3402C1E22B60C5D0011AC44 /* blackKing.png in Resources */,
+				E3113E4F22B87547003DB5E6 /* blackKnight.png in Resources */,
+				E3402C2022B60CD50011AC44 /* blackPawn.png in Resources */,
 				E384B1C422B4901B00E60930 /* Assets.xcassets in Resources */,
 				E384B1C222B4901900E60930 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +339,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E384B1BF22B4901900E60930 /* ViewController.m in Sources */,
+				E3113E3E22B6FEEE003DB5E6 /* King.m in Sources */,
+				E3402C2622B6B3470011AC44 /* Board.m in Sources */,
+				E3402C2322B6AFB20011AC44 /* Piece.m in Sources */,
+				E3402C2922B6B76A0011AC44 /* GamePlayViewController.m in Sources */,
+				E3113E4122B7010E003DB5E6 /* Queen.m in Sources */,
+				E3113E4D22B87497003DB5E6 /* Knight.m in Sources */,
 				E384B1CA22B4901B00E60930 /* main.m in Sources */,
+				E3113E4722B70456003DB5E6 /* Rook.m in Sources */,
+				E3402C1022B5BB5F0011AC44 /* SquareFinder.m in Sources */,
+				E3113E3B22B6CB9E003DB5E6 /* Pawn.m in Sources */,
+				E3113E5422B876B0003DB5E6 /* Bishop.m in Sources */,
 				E384B1BC22B4901900E60930 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
